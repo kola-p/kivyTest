@@ -9,7 +9,6 @@ from kivy.lang import Builder
 
 
 Window.size = (250, 200)
-Window.clearcolor = (255 / 255, 186 / 255, 3 / 255, 1)
 Builder.load_string('''
 <ScrollableLabel>:
     Label:
